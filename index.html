@@ -76,6 +76,12 @@
 			}
 		
 		</style>
+	
+$(document).on("contextmenu",function(e){
+        alert('right click disabled');
+        return false;
+    });
+
 		
 			</head>
 	
@@ -93,7 +99,7 @@
 				<div id="content">
 					<div class="innertube">
 						<h1>Della's Notes</h1>
-						<iframe sandbox src="home.html" height="600" width="800" name="myFrame"></iframe>
+						<iframe src="home.html" height="600" width="800" name="myFrame"></iframe>
 					</div>
 				</div>
 			</main>
